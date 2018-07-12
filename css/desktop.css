@@ -1,4 +1,7 @@
 @media screen and (min-width:1200px) {
+    * {
+        font-size: 20px;
+    }
     .fixed-width {
         width: 1200px;
         margin: auto;
@@ -60,6 +63,7 @@
     }
     nav {
         position: fixed;
+        background-color: transparent;
     }
     nav a {
         display: block;
@@ -67,6 +71,7 @@
         padding-bottom: 30px;
         text-decoration: none;
         color: #fff;
+        border: none;
     }
     nav .logo {
         float: left;
@@ -135,6 +140,12 @@
         text-align: center;
         line-height: 75px;
     }
+    #service .col-4 {
+        height: 250px;
+    }
+    #service .col-9 {
+        text-align: left;
+    }
     #history {
         background-color: #eee;
         padding-top: 100px;
@@ -152,6 +163,9 @@
         display: block;
         color: #fff;
         text-decoration: none;
+    }
+    #product .product-title {
+        padding-top: 0;
     }
     #product .section-slogan {
         width: 100%;
@@ -174,7 +188,7 @@
     }
     #product a:hover .section-slogan {
         background-color: rgba(0, 0, 0, .7);
-        top: -290px;
+        top: -260px;
         z-index: 40;
     }
     #product .product-img {
