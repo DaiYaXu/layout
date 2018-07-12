@@ -24,7 +24,7 @@ p {
 }
 /****************************NAV*******************************/
 nav {
-    position: fixed;
+    /* position: fixed; */
     background-color: #444;
 }
 nav a {
@@ -52,5 +52,51 @@ nav .menu a {
 }
 nav .search {
     /* float: right; */
+    text-align: center;
+}
+header {
+    background-color: grey;
+    height: 50vh;
+    text-align: center;
+    display: table;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url(../image/header2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+header h1 {
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+header p {
+    font-size: 1em;
+    line-height: 2.5em;
+    color: #fff;
+}
+header a {
+    text-decoration: none;
+}
+header .fixed-width {
+    display: table-cell;
+    vertical-align: middle;
+}
+/*service*/
+#service {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#service i {
+    display: block;
+    width: 75px;
+    height: 75px;
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 75px;
+    margin: auto;
+}
+#service .col-9 {
     text-align: center;
 }
